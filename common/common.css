@@ -1,0 +1,65 @@
+/* flex布局 */
+.u-f {
+	display: flex;
+}
+
+.u-f-1 {
+	flex: 1;
+}
+.u-f-r {
+	display: flex;
+	flex-direction: row;
+}
+
+.u-f-r-c {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.u-f-r-c-c {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.u-f-r-c-a {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.u-f-r-c-b {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.u-f-c-c-c {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.u-f-w {
+	flex-wrap: wrap;
+}
+
+/* 文字省略 */
+/* 单行省略 */
+.u-h-e-n {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+/* 多行省略 */
+.u-w-v-o {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}

@@ -1,0 +1,59 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/article/article",
+			"style": {
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/takeaway/takeaway",
+			"style": {
+				"h5": {
+					"titleNView": false
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#070707",
+		"selectedColor": "#1296db",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "商城类",
+				"iconPath": "/static/tarbar/sc_option.png",
+				"selectedIconPath": "/static/tarbar/sc_selecter.png"
+			},
+			{
+				"pagePath": "pages/takeaway/takeaway",
+				"text": "外卖类",
+				"iconPath": "/static/tarbar/wm_option.png",
+				"selectedIconPath": "/static/tarbar/wm_selecter.png"
+			},
+			{
+				"pagePath": "pages/article/article",
+				"text": "知乎类",
+				"iconPath": "/static/tarbar/zh_option.png",
+				"selectedIconPath": "/static/tarbar/zh_selecter.png"
+			}
+		]
+	}
+}
